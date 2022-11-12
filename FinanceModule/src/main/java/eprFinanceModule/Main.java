@@ -22,18 +22,18 @@ public class Main {
 				break;
 
 			case "totalsal":
-				Information ts = new Information();
-				ts.total_salary();
+				Information salaries = new Information();
+				salaries.total_salary();
 				break;
 
 			case "totalex":
-				Information ex = new Information();
-				ex.total_expense();
+				Information totalExpenses = new Information();
+				totalExpenses.total_expense();
 				break;
 
 			case "totalin":
-				Information in = new Information();
-				in.total_income();
+				Information totalIncome = new Information();
+				totalIncome.total_income();
 				break;
 
 			case "emp":
